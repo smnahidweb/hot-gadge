@@ -5,9 +5,274 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  </head>
+  <link rel="stylesheet" href="style.css">
+</head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="images"><img src="images/logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="product">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about" > About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact">Contct us</a>
+                  </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+ 
+   <div class="container carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex justify-content-center align-items-center ">
+        <div class="col-6">
+          <h3>Mackbook Pro</h3>
+           <p> The MacBook Pro is a line of Macintosh portable computers introduced in January 2006, by Apple Inc. It is the higher-end model of the MacBook family, sitting above the consumer-focused MacBook Air, and is sold with 13- and 16-inch screens </p>
+           <button type="button" class="btn btn-warning">Buy Now </button>
+          </div>
+
+      <div class="col-6">
+           <img src="images/banner-products/product-1.png" alt="">
+      </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class=" row d-flex justify-content-center align-items-center">
+            <div class="col-6">
+          
+              <h3> Small Sound box</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure distinctio voluptatibus impedit! Voluptatem dicta commodi aliquid laboriosam, dolore rem voluptates!</p>
+              <button type="button" class="btn btn-warning">Buy Now </button>
+
+            </div>
+
+          <div class="col-6">
+            <img src="images/banner-products/slider-1.png" alt="">
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          
+      <div class="row d-flex justify-content-center align-items-center">
+
+
+        <div class="col-6">
+      <h3>Big sound box</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa labore dolore consectetur incidunt iste ut saepe aliquam ullam perferendis porro.</p>
+      <button type="button" class="btn btn-warning">Buy Now </button>
+
+     </div>
+      <div class="col-6">
+        <img src="images/banner-products/slider-3.png" alt="">
+      </div>
+
+      </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> 
+
+   </div>
+
+   
+   <div class=" container sp d-flex justify-content-between">
+    <h4>Smartphone</h4>
+    <a class="link1" href="">See all</a>
+  </div>
+
+   <div class="container card1">
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Iphone 11 pro</h5>
+            <p class="card-text"> The iPhone 11 Pro has a 5.8-inch OLED Super Retina XDR Display, with the Max having a 6.5-inch Super Retina XDR display. </p>
+          <h5 class="price">$800</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"> 
+              <button type="button" class="btn btn-warning price">Buy Now>></button>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Redme 11pro</h5>
+            <p class="card-text">This card has supporting text Lorem ipsum dolor sit amet. below as a natural lead-in to additional content.</p>
+            <h5 class="price">$460</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+
+              <button type="button" class="btn btn-warning price">Buy Now>></button>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sumsung Galaxy Note 10</h5>
+            <p class="card-text">This is a wider low as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <h5 class="price">$500</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <button type="button" class="btn btn-warning price">Buy Now>></button>
+
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+   <div class=" container sp d-flex justify-content-between">
+    <h4>Laptop</h4>
+    <a class="link1" href="">See all</a>
+  </div>
+
+   <div class="container laptop ">
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus</h5>
+          <p class="card-text"> The iPhone 11 Pro has a 5.8-inch OLED Super Retina XDR Display, with the Max having a 6.5-inch Super Retina XDR display. </p>
+        <h5 class="price">$1000</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted"> 
+            <button type="button" class="btn btn-warning price">Buy Now>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Dell</h5>
+          <p class="card-text">This card has supporting text Lorem ipsum dolor sit amet. below as a natural lead-in to additional content.</p>
+          <h5 class="price">$460</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+
+            <button type="button" class="btn btn-warning price">Buy Now>></button>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Hp Band</h5>
+          <p class="card-text">This is a wider low as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <h5 class="price">$1500</h5>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            <button type="button" class="btn btn-warning price">Buy Now>></button>
+
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <div class="container cat3">
+    <h1 class="cat">Categories</h1>
+  
+  <div class="row">
+<div class="col-3 d-flex align-items-center">
+<img class="cat1" src="images/Categories/bag.png" alt="">
+</div>
+<div class="col-3">
+  <div class="row nahid">
+    <img class="cat1" src="images/Categories/perfume.png" alt="">
+  </div>
+  <div class="row">
+    <img class="cat1"  src="images/Categories/shoe.png" alt="">
+  </div>
+</div>
+
+<div class="col-6">
+
+<img class="cat3" src="images/Categories/pale-order.png" alt="">
+
+
+</div>
+
+
+
+  </div>
+</div>
+
+<div class="container last3">
+
+<h2 class="last6">Coment about our Product:</h2>
+<form action="#">
+  <input class="last1" type="text" name="name" placeholder="Enter Name here"> <br> <br> 
+  <input class="last1" type="email" placeholder="Enter Your e-mail"> <br> <br> 
+  <textarea class="last1" name="comment" placeholder="Comment here" ></textarea> <br> <br> 
+  <button type="button" class="btn btn-danger last2 btn-lg">Submit</button><br> <br> 
+</form>
+</div>
+<footer>
+  <div class="container last4">
+    <p>© Copyright 2022 Nahid || All information reserved </p>
+  </div>
+</footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
 </html>
